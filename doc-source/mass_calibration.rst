@@ -17,20 +17,18 @@ Mass Calibration / Check
 
 	.. highlight:: none
 
-	|
 
 	.. figure:: mass_calibration_window.png
 		:alt: View of the Tune & Calibration
 
 		The Tune & Calibration tab
 
-	|
 
 	From Agilent's manual::
 
 		Before you calibrate the instrument, you have to set the instrument state
-		to the proper instrument mode, mass range and fast polarity switching mode.
-		You set these values on the Instrument State tab.
+		to the proper instrument mode, mass range and fast polarity switching
+		mode. You set these values on the Instrument State tab.
 
 		When you change the mass range or enable/disable fast polarity switching
 		on the Instrument State tab, the pulser frequency is changed which results
