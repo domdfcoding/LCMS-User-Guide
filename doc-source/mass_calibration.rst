@@ -23,7 +23,7 @@ Mass Calibration / Check
 	.. highlight:: none
 
 
-	.. figure:: Tune Window.png
+	.. figure:: TuneWindow.PNG
 		:alt: View of the Tune & Calibration
 
 		The Tune & Calibration tab
