@@ -37,40 +37,50 @@ Pre-Run
 
 #. Check the 3 ``Exhaust Pipes`` are entering the ``Extractor`` for the ``Graphite Furnace``
 
-(Back at the front of the instrument)
+#. Return to the front of the instrument
 
-7. Fetch some blue towel.
+#. Fetch some blue towel.
 
-8. Open the ``Ionisation Chamber`` of the ``MS`` and spray ``50% IPA`` around (but not into) the metal surfaces of the inlet <correct word?>.
+#. Open the ``Ionisation Chamber`` of the ``MS`` and spray ``50% IPA`` around (but not into) the metal surfaces of the inlet orifice.
 
-9. Spray the inside of the ``Ionisation Chamber`` door and wipe with the blue towel.
+#. Spray the inside of the ``Ionisation Chamber`` door and wipe with the blue towel.
 
-10. Close the ``Ionisation Chamber``.
+#. Close the ``Ionisation Chamber``.
 
-11. Open `Mass Hunter Workstation Data Acquisition`.
+#. Open `Mass Hunter Workstation Data Acquisition`.
 
-12. Check the pressures on the top right of the screen are within the following values:
+#. Check the pressures on the top right of the screen are within the following values:
 
 	+-----------+-------------------+
-	| Rough Vac | < 4.4×10\ :sup:`0`|
+	| Rough Vac | < 4.4×10 :sup:`0`|
 	+-----------+-------------------+
-	| Quad Vac  | 1×10\ :sup:`−5`   |
+	| Quad Vac  | 1×10 :sup:`−5`   |
 	|           | - 4×10\ :sup:`−5` |
 	+-----------+-------------------+
-	| TOC Vac   | 2×10\ :sup:`−7`   |
-	|           | - 4×10\ :sup:`−7` |
+	| TOC Vac   | 2×10 :sup:`−7`   |
+	|           | - 4×10 :sup:`−7` |
 	+-----------+-------------------+
 
+#. Check sufficient eluent is present in the eluent bottles being used for the run.
+
+#. Check that the ``Quat. Pump`` is aware of the level of eluent in the bottles. To do this:
+
+	#. Right click on the ``Quat. Pump`` panel of the `Instrument Status` window in `MassHunter`. <could use image here>
+	#. Select :guilabel:`Bottle Fillings` from the menu.
+	#. Under `Actual Volume`, ensure the value reflects the volume of eluent actually present in the bottle. <could use image here>
+	#. Click :guilabel:`OK`.
+	
+	Repeat the above steps when :ref:`Changing Eluent` (see below)
 
 
 Changing Eluent
 ^^^^^^^^^^^^^^^^^
 
-#. If changing eluent bottles, try to swap similar eluents.
+#. When changing eluents, try to swap similar eluents.
 
 		e.g. Replace `Ammonium Formate` with `Ammonium Acetate`.
 
-		* Lids on bottles do not need to be tight
+		* The Lids on bottles do not need to be tight
 
 #. Open the valve behind the door on the front of the ``Pump``.
 #. Right click on the ``QTOF`` panel of the :guilabel:`Instrument Status` window in `MassHunter` and select :guilabel:`LC` → :guilabel:`Waste` from the menu.
