@@ -3,14 +3,19 @@ Mass Calibration / Check
 ============================
 
 #. Select :guilabel:`Context` → :guilabel:`Tune` at the top left of the `MassHunter` window.
+
 #. Turn on the ``QTOF`` by clicking the :guilabel:`On` button in its section of the `MassHunter` window.
+
 #. Close the valve near the ``ESI`` on the ``MS``.
+
 #. Set :guilabel:`Calibrant Bottle` to :guilabel:`B` at the bottom left of the :guilabel:`Tune` window.
+
 #. Set :guilabel:`LC Flow to` to :guilabel:`Waste` at the bottom left of the :guilabel:`Tune` window.
+
 #. In the :guilabel:`Tune & Calibration` tab (pictured below) set the instrument parameters required for the run, e.g.:
 
 	* :guilabel:`Positive` – if using +ESI
-	* :guilabel:`TOF` - <when you you use both?>
+	* :guilabel:`TOF` - <when would you use both?>
 	* :guilabel:`Mass Calibration / Check`
 	* :guilabel:`50-1500 m/z`
 	.. TODO
@@ -39,7 +44,18 @@ Mass Calibration / Check
 
 	.. highlight:: default
 
-#. Click <button text> to start the calibration
+#. Click the button to start the calibration.
+
+	.. :Note:
+		
+		The text of this button veries depending on the mode selected. 
+		
+		* For :guilabel:`Quadrupole`, the button reads :guilabel:`Start Check Quadrupole`
+		
+		* For :guilabel:`TOF`, the button reads :guilabel:`Start TOF Mass Calibration`
+		
+		* For :guilabel:`Both`, the button reads :guilabel:`Start Check Quadrupole & TOF Mass Calibration`
+
 
 #. Once complete, the calibration report will open automatically.
 
