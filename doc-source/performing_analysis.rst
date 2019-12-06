@@ -5,8 +5,18 @@ Performing Analysis
 Starting a Run
 ^^^^^^^^^^^^^^^^
 
-#. <does LC need to be set to MS manually?>
-#. In the :guilabel:`Worklist`, select the samples to run and click the :guilabel:`▶` button.
+If :ref:`Mass Calibration / Check` was performed the ``LC`` flow will have been set to go to the ``MS`` automatically. Otherwise, perform the following steps to set the flow:
+  
+	#. Right click on the ``QTOF`` panel of the :guilabel:`Instrument Status` window in `MassHunter`
+
+	#. Select :guilabel:`LC` → :guilabel:`Waste` from the menu.
+
+		.. figure:: instrument_status_qtof.png
+			:alt: The Instrument Status window
+
+			The Instrument Status window
+
+To start the run, in the :guilabel:`Worklist`, select the samples to run by ticking the box to the left of the `Sample Name` field and click the :guilabel:`▶` button.
 
 .. figure:: worklist.png
 	:alt: View of the Worklist
