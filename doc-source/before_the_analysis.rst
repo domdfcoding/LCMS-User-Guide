@@ -76,13 +76,12 @@ Pre-Run
 Changing Eluent
 ^^^^^^^^^^^^^^^^^
 
-#. When changing eluents, try to swap similar eluents.
+When changing eluents, try to swap similar eluents. For example, replace `Ammonium Formate` with `Ammonium Acetate`.
 
-		e.g. Replace `Ammonium Formate` with `Ammonium Acetate`.
+		* The Lids on the bottles do not need to be tight.
 
-		* The Lids on bottles do not need to be tight
+To change an eluent, perform the following steps:
 
-#. Open the valve behind the door on the front of the ``Pump``.
 #. Right click on the ``QTOF`` panel of the :guilabel:`Instrument Status` window in `MassHunter` and select :guilabel:`LC` → :guilabel:`Waste` from the menu.
 
 	.. figure:: instrument_status_qtof.png
@@ -90,12 +89,20 @@ Changing Eluent
 
 		The Instrument Status window
 
-#. In the :guilabel:`Method Editor`, under <?>, set the :guilabel:`Flow Rate` to 0.000 mL/min and press :kbd:`Enter⏎`
+#. In the :guilabel:`Method Editor`, under ``Quat. Pump``, set the :guilabel:`Flow Rate` to 0.000 mL/min and press :kbd:`Enter⏎`
+
+#. Open the valve behind the door on the front of the ``Pump``.
+
 #. Set the level of any solvents that weren't changed to 0% and enable the eluents that were changed.
+
 #. Set the :guilabel:`Flow Rate` to 1.000 mL/min and press :kbd:`Enter⏎`
+
 #. Check the pressure in the ``Column`` does not rise above 0 Bar. If it does, check the valve at the front of the ``Pump`` is open.
+
 #. Set the :guilabel:`Flow Rate` to 5.000 mL/min and press :kbd:`Enter⏎`
+
 #. After 5 minutes, set the :guilabel:`Flow Rate` to 0.000 mL/min and press :kbd:`Enter⏎`
-#. Close the valve on the front of the ``Pump``
+
+#. Close the valve on the front of the ``Pump`` and close the door.
 
 A method can be setup for flushing and equilibrating the column as part of the :guilabel:`Worklist` if desired
