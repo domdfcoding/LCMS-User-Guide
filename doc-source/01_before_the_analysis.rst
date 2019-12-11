@@ -20,7 +20,7 @@ Pre-Run
 
 #. Check the valve near the ``ESI`` on the ``MS`` is open (handle in line with pipe) and is connected to ``L`` on the nearby block (shown below)
 
-	.. figure:: flow-block.png
+	.. figure:: images/flow-block.png
 		:alt: Check that the pipe is connected to the port marked "L" to the left of this image, not to the port marked "H"
 
 		Check that the pipe is connected to the port marked "L" to the left of this image, not to the port marked "H"
@@ -84,7 +84,7 @@ To change an eluent, perform the following steps:
 
 #. Right click on the ``QTOF`` panel of the :guilabel:`Instrument Status` window in `MassHunter` and select :guilabel:`LC` → :guilabel:`Waste` from the menu.
 
-	.. figure:: instrument_status_qtof.png
+	.. figure:: images/instrument_status_qtof.png
 		:alt: The Instrument Status window
 
 		The Instrument Status window

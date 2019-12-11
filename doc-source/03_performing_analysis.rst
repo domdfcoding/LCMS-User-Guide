@@ -11,14 +11,14 @@ If :ref:`Mass Calibration / Check` was performed the ``LC`` flow will have been 
 
 	#. Select :guilabel:`LC` → :guilabel:`Waste` from the menu.
 
-		.. figure:: instrument_status_qtof.png
+		.. figure:: images/instrument_status_qtof.png
 			:alt: The Instrument Status window
 
 			The Instrument Status window
 
 To start the run, in the :guilabel:`Worklist`, select the samples to run by ticking the box to the left of the `Sample Name` field and click the :guilabel:`▶` button.
 
-.. figure:: worklist.png
+.. figure:: images/worklist.png
 	:alt: View of the Worklist
 
 	The Worklist
@@ -30,7 +30,7 @@ During the Run
 #. Check that the ``Column`` pressure remains stable and does not rise above <value?>.
 #. Check that the three symbols in the ``Q-TOF`` panel of the :guilabel:`Instrument Status` window (shown below) remain green to indicate that the reference ions were found.
 
-.. figure:: instrument_status_during_run.png
+.. figure:: images/instrument_status_during_run.png
 	:alt: The Instrument Status window
 
 	The Instrument Status window

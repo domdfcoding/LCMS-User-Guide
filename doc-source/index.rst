@@ -7,6 +7,6 @@ LC-MS Checklist
     :maxdepth: 2
     :caption: Table of Contents
 
-    before_the_analysis
-    mass_calibration
-    performing_analysis
+    01_before_the_analysis
+    02_mass_calibration
+    03_performing_analysis
