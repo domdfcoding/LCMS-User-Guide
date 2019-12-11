@@ -46,7 +46,7 @@ Mass Calibration / Check
 
 #. Click the button to start the calibration.
 
-	.. :Note:
+	.. note::
 		
 		The text of this button veries depending on the mode selected. 
 		
