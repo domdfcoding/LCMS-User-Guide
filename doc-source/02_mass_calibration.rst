@@ -63,6 +63,6 @@ Mass Calibration / Check
 
 #. On Page 2 of the report, under :guilabel:`Detector` → :guilabel:`MCP`, check that the value is below 900.
 
-#. Back in `MassHunter`, return to `Acquistision` mode by selecting :guilabel:`Context` → :guilabel:`Acquisition` at the top left of the window.
+#. Back in `MassHunter`, return to `Acquisition` mode by selecting :guilabel:`Context` → :guilabel:`Acquisition` at the top left of the window.
 
 #. Open the valve near the ``ESI`` on the ``MS``.
