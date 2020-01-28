@@ -33,7 +33,7 @@ Pre-Run
 	* Beneath the bench below the ``MS`` and behind the ``Vacuum Pumps``
 	* Behind the ``MS``
 
-#. Check there is pressure in the ``Nitrogen Bottle`` behind the ``MS``
+#. Check there is pressure in the ``Collision Gas Bottle`` behind the ``MS``, and record the pressure
 
 #. Check the 3 ``Exhaust Pipes`` are entering the ``Extractor`` for the ``Graphite Furnace``
 
