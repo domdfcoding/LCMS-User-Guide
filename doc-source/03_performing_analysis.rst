@@ -34,3 +34,10 @@ During the Run
 	:alt: The Instrument Status window
 
 	The Instrument Status window
+
+
+Shutdown
+^^^^^^^^^^^^^^^^^^
+
+#. In the ``Instrument Status`` window, click the :guilabel:`Off` button to the lower right.
+#. Close ``Data Acquisition``.
