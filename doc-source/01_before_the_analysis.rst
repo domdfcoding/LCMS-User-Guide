@@ -69,7 +69,7 @@ Pre-Run
 	#. Select :guilabel:`Bottle Fillings` from the menu.
 	#. Under `Actual Volume`, ensure the value reflects the volume of eluent actually present in the bottle.
 
-		.. figure:: images/bottle_fillings.png
+		.. figure:: images/bottle_fillings.PNG
 			:alt: The "Bottle Fillings" window
 
 			The "Bottle Fillings" window
