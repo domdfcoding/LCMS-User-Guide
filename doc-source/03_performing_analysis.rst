@@ -27,7 +27,7 @@ To start the run, in the :guilabel:`Worklist`, select the samples to run by tick
 During the Run
 ^^^^^^^^^^^^^^^^^^
 
-#. Check that the ``Column`` pressure remains stable and does not rise above <value?>.
+#. Check that the ``Column`` pressure remains stable and does not rise above 200 bar. Analysis should stop automatically if the pressure rises above 600 bar.
 #. Check that the three symbols in the ``Q-TOF`` panel of the :guilabel:`Instrument Status` window (shown below) remain green to indicate that the reference ions were found.
 
 .. figure:: images/instrument_status_during_run.png
