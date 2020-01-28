@@ -52,13 +52,13 @@ Pre-Run
 #. Check the pressures on the top right of the screen are within the following values:
 
 	+-----------+-------------------+
-	| Rough Vac | < 4.4×10 :sup:`0`|
+	| Rough Vac | < 4.4×10 :sup:`0` |
 	+-----------+-------------------+
-	| Quad Vac  | 1×10 :sup:`−5`   |
+	| Quad Vac  | 1×10 :sup:`−5`    |
 	|           | - 4×10\ :sup:`−5` |
 	+-----------+-------------------+
-	| TOC Vac   | 2×10 :sup:`−7`   |
-	|           | - 4×10 :sup:`−7` |
+	| TOC Vac   | 2×10 :sup:`−7`    |
+	|           | - 4×10 :sup:`−7`  |
 	+-----------+-------------------+
 
 #. Check sufficient eluent is present in the eluent bottles being used for the run.
