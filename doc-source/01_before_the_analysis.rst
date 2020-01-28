@@ -67,7 +67,13 @@ Pre-Run
 
 	#. Right click on the ``Quat. Pump`` panel of the `Instrument Status` window in `MassHunter`. <could use image here>
 	#. Select :guilabel:`Bottle Fillings` from the menu.
-	#. Under `Actual Volume`, ensure the value reflects the volume of eluent actually present in the bottle. <could use image here>
+	#. Under `Actual Volume`, ensure the value reflects the volume of eluent actually present in the bottle.
+
+		.. figure:: images/bottle_fillings.png
+			:alt: The "Bottle Fillings" window
+
+			The "Bottle Fillings" window
+	
 	#. Click :guilabel:`OK`.
 	
 	Repeat the above steps when :ref:`Changing Eluent` (see below)
