@@ -82,9 +82,6 @@ Pre-Run
 Changing Eluent
 ^^^^^^^^^^^^^^^^^
 
-When changing eluents, try to swap similar eluents. For example, replace `Ammonium Formate` with `Ammonium Acetate`.
-
-		* The Lids on the bottles do not need to be tight.
 
 To change an eluent, perform the following steps:
 
@@ -96,6 +93,10 @@ To change an eluent, perform the following steps:
 		The Instrument Status window
 
 #. In the :guilabel:`Method Editor`, under ``Quat. Pump``, set the :guilabel:`Flow Rate` to 0.000 mL/min and press :kbd:`Enter⏎`
+
+#. Swap the the eluent bottles. Try to swap similar eluents; for example, replace `Ammonium Formate` with `Ammonium Acetate`.
+
+	* The Lids on the bottles do not need to be tight.
 
 #. Open the valve behind the door on the front of the ``Pump``.
 
