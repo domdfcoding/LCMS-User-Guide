@@ -5,9 +5,6 @@ import os
 import re
 import sys
 
-sys.path.append(os.path.abspath('.'))
-sys.path.append(os.path.abspath('..'))
-
 from sphinx.locale import _
 
 __version__ = "1.0.0"
@@ -21,10 +18,10 @@ copyright = author
 language = 'en'
 
 extensions = [
-    'sphinx.ext.mathjax',
-    'sphinx.ext.viewcode',
-    'sphinxcontrib.httpdomain',
-]
+		'sphinx.ext.mathjax',
+		'sphinx.ext.viewcode',
+		'sphinxcontrib.httpdomain',
+		]
 
 templates_path = ['_templates']
 source_suffix = '.rst'
@@ -46,52 +43,52 @@ html_show_sourcelink = False
 html_static_path = ['_static']
 
 html_context = {
-    # Github Settings
-    "display_github": False, # Integrate GitHub
-    "github_user": "domdfcoding", # Username
-    "github_repo": "", # Repo name
-    "github_version": "master", # Version
-    "conf_py_path": "/", # Path in the checkout to the docs root
-}
+		# Github Settings
+		"display_github": False,  # Integrate GitHub
+		"github_user": "domdfcoding",  # Username
+		"github_repo": "",  # Repo name
+		"github_version": "master",  # Version
+		"conf_py_path": "/",  # Path in the checkout to the docs root
+		}
 
 htmlhelp_basename = slug
 
 latex_documents = [
-  ('index', '{0}.tex'.format(slug), project, author, 'manual'),
-]
+		('index', '{0}.tex'.format(slug), project, author, 'manual'),
+		]
 
 man_pages = [
-    ('index', slug, project, [author], 1)
-]
+		('index', slug, project, [author], 1)
+		]
 
 texinfo_documents = [
-  ('index', slug, project, author, slug, project, 'Miscellaneous'),
-]
+		('index', slug, project, author, slug, project, 'Miscellaneous'),
+		]
 
 
 # Extensions to theme docs
 def setup(app):
-    from sphinx.domains.python import PyField
-    from sphinx.util.docfields import Field
-
-    app.add_object_type(
-        'confval',
-        'confval',
-        objname='configuration value',
-        indextemplate='pair: %s; configuration value',
-        doc_field_types=[
-            PyField(
-                'type',
-                label=_('Type'),
-                has_arg=False,
-                names=('type',),
-                bodyrolename='class'
-            ),
-            Field(
-                'default',
-                label=_('Default'),
-                has_arg=False,
-                names=('default',),
-            ),
-        ]
-    )
+	from sphinx.domains.python import PyField
+	from sphinx.util.docfields import Field
+	
+	app.add_object_type(
+			'confval',
+			'confval',
+			objname='configuration value',
+			indextemplate='pair: %s; configuration value',
+			doc_field_types=[
+					PyField(
+							'type',
+							label=_('Type'),
+							has_arg=False,
+							names=('type',),
+							bodyrolename='class'
+							),
+					Field(
+							'default',
+							label=_('Default'),
+							has_arg=False,
+							names=('default',),
+							),
+					]
+			)
