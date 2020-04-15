@@ -33,7 +33,7 @@ Pre-Run
 	* Beneath the bench below the ``MS`` and behind the ``Vacuum Pumps``
 	* Behind the ``MS``
 
-#. Check there is pressure in the ``Nitrogen Bottle`` behind the ``MS``
+#. Check there is pressure in the ``Collision Gas Bottle`` behind the ``MS``, and record the pressure
 
 #. Check the 3 ``Exhaust Pipes`` are entering the ``Extractor`` for the ``Graphite Furnace``
 
@@ -52,13 +52,13 @@ Pre-Run
 #. Check the pressures on the top right of the screen are within the following values:
 
 	+-----------+-------------------+
-	| Rough Vac | < 4.4×10 :sup:`0`|
+	| Rough Vac | < 4.4×10 :sup:`0` |
 	+-----------+-------------------+
-	| Quad Vac  | 1×10 :sup:`−5`   |
+	| Quad Vac  | 1×10 :sup:`−5`    |
 	|           | - 4×10\ :sup:`−5` |
 	+-----------+-------------------+
-	| TOC Vac   | 2×10 :sup:`−7`   |
-	|           | - 4×10 :sup:`−7` |
+	| TOC Vac   | 2×10 :sup:`−7`    |
+	|           | - 4×10 :sup:`−7`  |
 	+-----------+-------------------+
 
 #. Check sufficient eluent is present in the eluent bottles being used for the run.
@@ -67,7 +67,13 @@ Pre-Run
 
 	#. Right click on the ``Quat. Pump`` panel of the `Instrument Status` window in `MassHunter`. <could use image here>
 	#. Select :guilabel:`Bottle Fillings` from the menu.
-	#. Under `Actual Volume`, ensure the value reflects the volume of eluent actually present in the bottle. <could use image here>
+	#. Under `Actual Volume`, ensure the value reflects the volume of eluent actually present in the bottle.
+
+		.. figure:: images/bottle_fillings.PNG
+			:alt: The "Bottle Fillings" window
+
+			The "Bottle Fillings" window
+	
 	#. Click :guilabel:`OK`.
 	
 	Repeat the above steps when :ref:`Changing Eluent` (see below)
@@ -76,9 +82,6 @@ Pre-Run
 Changing Eluent
 ^^^^^^^^^^^^^^^^^
 
-When changing eluents, try to swap similar eluents. For example, replace `Ammonium Formate` with `Ammonium Acetate`.
-
-		* The Lids on the bottles do not need to be tight.
 
 To change an eluent, perform the following steps:
 
@@ -90,6 +93,10 @@ To change an eluent, perform the following steps:
 		The Instrument Status window
 
 #. In the :guilabel:`Method Editor`, under ``Quat. Pump``, set the :guilabel:`Flow Rate` to 0.000 mL/min and press :kbd:`Enter⏎`
+
+#. Swap the the eluent bottles. Try to swap similar eluents; for example, replace `Ammonium Formate` with `Ammonium Acetate`.
+
+	* The Lids on the bottles do not need to be tight.
 
 #. Open the valve behind the door on the front of the ``Pump``.
 
